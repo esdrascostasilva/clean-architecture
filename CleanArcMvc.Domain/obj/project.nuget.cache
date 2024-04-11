@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "w4Hl9VFdrAyRMKnNN+KzXdHDKXSBd+i80GP8H+x4t41QLvdHHkB0yStB6RsxUmjmbZz2cQbICMCAR9UUUC4Y9Q==",
+  "success": true,
+  "projectFilePath": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/CleanArcMvc.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/esdrascosta/.nuget/packages/microsoft.netcore.app.ref/6.0.19/microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
+    "/Users/esdrascosta/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.19/microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}

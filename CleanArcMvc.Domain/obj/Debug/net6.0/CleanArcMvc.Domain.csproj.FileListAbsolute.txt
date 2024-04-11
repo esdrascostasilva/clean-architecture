@@ -1,0 +1,11 @@
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/obj/Debug/net6.0/CleanArcMvc.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/obj/Debug/net6.0/CleanArcMvc.Domain.AssemblyInfoInputs.cache
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/obj/Debug/net6.0/CleanArcMvc.Domain.AssemblyInfo.cs
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/obj/Debug/net6.0/CleanArcMvc.Domain.csproj.CoreCompileInputs.cache
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/bin/Debug/net6.0/CleanArcMvc.Domain.deps.json
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/bin/Debug/net6.0/CleanArcMvc.Domain.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/bin/Debug/net6.0/CleanArcMvc.Domain.pdb
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/obj/Debug/net6.0/CleanArcMvc.Domain.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/obj/Debug/net6.0/refint/CleanArcMvc.Domain.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/obj/Debug/net6.0/CleanArcMvc.Domain.pdb
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/obj/Debug/net6.0/ref/CleanArcMvc.Domain.dll

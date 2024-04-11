@@ -1,0 +1,15 @@
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/bin/Debug/net6.0/CleanArcMvc.Application.deps.json
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/bin/Debug/net6.0/CleanArcMvc.Application.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/bin/Debug/net6.0/CleanArcMvc.Application.pdb
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/bin/Debug/net6.0/CleanArcMvc.Domain.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/bin/Debug/net6.0/CleanArcMvc.Domain.pdb
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/obj/Debug/net6.0/CleanArcMvc.Application.csproj.AssemblyReference.cache
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/obj/Debug/net6.0/CleanArcMvc.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/obj/Debug/net6.0/CleanArcMvc.Application.AssemblyInfoInputs.cache
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/obj/Debug/net6.0/CleanArcMvc.Application.AssemblyInfo.cs
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/obj/Debug/net6.0/CleanArcMvc.Application.csproj.CoreCompileInputs.cache
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/obj/Debug/net6.0/CleanArcMvc.Application.csproj.CopyComplete
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/obj/Debug/net6.0/CleanArcMvc.Application.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/obj/Debug/net6.0/refint/CleanArcMvc.Application.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/obj/Debug/net6.0/CleanArcMvc.Application.pdb
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/obj/Debug/net6.0/ref/CleanArcMvc.Application.dll

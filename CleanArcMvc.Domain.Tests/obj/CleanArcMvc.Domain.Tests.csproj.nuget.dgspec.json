@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain.Tests/CleanArcMvc.Domain.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain.Tests/CleanArcMvc.Domain.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain.Tests/CleanArcMvc.Domain.Tests.csproj",
+        "projectName": "CleanArcMvc.Domain.Tests",
+        "projectPath": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain.Tests/CleanArcMvc.Domain.Tests.csproj",
+        "packagesPath": "/Users/esdrascosta/.nuget/packages/",
+        "outputPath": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/esdrascosta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/CleanArcMvc.Domain.csproj": {
+                "projectPath": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/CleanArcMvc.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.19, 6.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.19, 6.0.19]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.6.23330.14/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/CleanArcMvc.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/CleanArcMvc.Domain.csproj",
+        "projectName": "CleanArcMvc.Domain",
+        "projectPath": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/CleanArcMvc.Domain.csproj",
+        "packagesPath": "/Users/esdrascosta/.nuget/packages/",
+        "outputPath": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/esdrascosta/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.19, 6.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.19, 6.0.19]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.6.23330.14/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

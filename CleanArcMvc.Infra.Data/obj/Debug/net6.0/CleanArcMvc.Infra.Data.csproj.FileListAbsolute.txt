@@ -1,0 +1,17 @@
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/bin/Debug/net6.0/CleanArcMvc.Infra.Data.deps.json
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/bin/Debug/net6.0/CleanArcMvc.Infra.Data.runtimeconfig.json
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/bin/Debug/net6.0/CleanArcMvc.Infra.Data.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/bin/Debug/net6.0/CleanArcMvc.Infra.Data.pdb
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/bin/Debug/net6.0/CleanArcMvc.Domain.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/bin/Debug/net6.0/CleanArcMvc.Domain.pdb
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/CleanArcMvc.Infra.Data.csproj.AssemblyReference.cache
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/CleanArcMvc.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/CleanArcMvc.Infra.Data.AssemblyInfoInputs.cache
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/CleanArcMvc.Infra.Data.AssemblyInfo.cs
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/CleanArcMvc.Infra.Data.csproj.CoreCompileInputs.cache
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/CleanArcMvc.Infra.Data.csproj.CopyComplete
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/CleanArcMvc.Infra.Data.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/refint/CleanArcMvc.Infra.Data.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/CleanArcMvc.Infra.Data.pdb
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/CleanArcMvc.Infra.Data.genruntimeconfig.cache
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/ref/CleanArcMvc.Infra.Data.dll

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArcMvc.Domain\CleanArcMvc.Domain.csproj" />
+    <ProjectReference Include="..\CleanArcMvc.Application\CleanArcMvc.Application.csproj" />
+    <ProjectReference Include="..\CleanArcMvc.Infra.Data\CleanArcMvc.Infra.Data.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
