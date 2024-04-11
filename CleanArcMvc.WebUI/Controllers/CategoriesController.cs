@@ -1,7 +1,8 @@
 ﻿using CleanArcMvc.Application;
+using CleanArcMvc.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CleanArcMvc.WebUI;
+namespace CleanArcMvc.WebUI.Controllers;
 
 public class CategoriesController : Controller
 {   

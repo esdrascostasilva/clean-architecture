@@ -1,4 +1,6 @@
-﻿namespace CleanArcMvc.Application;
+﻿using CleanArcMvc.Application.DTOs;
+
+namespace CleanArcMvc.Application.Interfaces;
 
 public interface ICategoryService
 {

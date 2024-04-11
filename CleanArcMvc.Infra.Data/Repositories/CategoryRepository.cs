@@ -1,7 +1,10 @@
 ﻿using CleanArcMvc.Domain;
+using CleanArcMvc.Domain.Entities;
+using CleanArcMvc.Domain.Interfaces;
+using CleanArcMvc.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanArcMvc.Infra.Data;
+namespace CleanArcMvc.Infra.Data.Repositories;
 
 public class CategoryRepository : ICategoryRepository
 {

@@ -1,8 +1,9 @@
 ﻿using CleanArcMvc.Domain;
+using CleanArcMvc.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace CleanArcMvc.Infra.Data;
+namespace CleanArcMvc.Infra.Data.EntitiesConfiguration;
 
 public class CategoryConfiguration : IEntityTypeConfiguration<Category>
 {

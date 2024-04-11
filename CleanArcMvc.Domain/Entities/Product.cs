@@ -1,6 +1,6 @@
 ﻿using CleanArcMvc.Domain.Validation;
 
-namespace CleanArcMvc.Domain;
+namespace CleanArcMvc.Domain.Entities;
 
 public sealed class Product : Entity
 {
@@ -24,7 +24,7 @@ public sealed class Product : Entity
         ValidationDomain(name, description, price, stock, image);
     }
 
-    private void Update(string name, string description, decimal price, int stock, string image, int categoryId)
+    public void Update(string name, string description, decimal price, int stock, string image, int categoryId)
     {
         ValidationDomain(name, description, price, stock, image);
         CategoryId = categoryId;

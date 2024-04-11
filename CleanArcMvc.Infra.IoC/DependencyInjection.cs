@@ -1,6 +1,12 @@
 ﻿using CleanArcMvc.Application;
+using CleanArcMvc.Application.Interfaces;
+using CleanArcMvc.Application.Mappings;
+using CleanArcMvc.Application.Services;
 using CleanArcMvc.Domain;
+using CleanArcMvc.Domain.Interfaces;
 using CleanArcMvc.Infra.Data;
+using CleanArcMvc.Infra.Data.Context;
+using CleanArcMvc.Infra.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

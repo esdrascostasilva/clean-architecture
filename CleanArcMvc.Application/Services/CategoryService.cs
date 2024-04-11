@@ -1,8 +1,11 @@
 ﻿
 using AutoMapper;
-using CleanArcMvc.Domain;
+using CleanArcMvc.Application.DTOs;
+using CleanArcMvc.Application.Interfaces;
+using CleanArcMvc.Domain.Entities;
+using CleanArcMvc.Domain.Interfaces;
 
-namespace CleanArcMvc.Application;
+namespace CleanArcMvc.Application.Services;
 
 public class CategoryService : ICategoryService
 {

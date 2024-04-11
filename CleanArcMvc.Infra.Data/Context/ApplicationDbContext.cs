@@ -1,8 +1,9 @@
 ﻿using CleanArcMvc.Domain;
+using CleanArcMvc.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace CleanArcMvc.Infra.Data;
+namespace CleanArcMvc.Infra.Data.Context;
 
 public class ApplicationDbContext : DbContext
 {

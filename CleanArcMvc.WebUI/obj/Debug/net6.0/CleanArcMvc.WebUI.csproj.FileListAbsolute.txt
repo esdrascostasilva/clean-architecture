@@ -75,3 +75,7 @@
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/obj/Debug/net6.0/CleanArcMvc.WebUI.csproj.AssemblyReference.cache
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/obj/Debug/net6.0/CleanArcMvc.WebUI.csproj.CopyComplete
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/bin/Debug/net6.0/AutoMapper.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/obj/Debug/net6.0/CleanArcMvc.WebUI.sourcelink.json
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/bin/Debug/net6.0/MediatR.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/bin/Debug/net6.0/MediatR.Contracts.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll

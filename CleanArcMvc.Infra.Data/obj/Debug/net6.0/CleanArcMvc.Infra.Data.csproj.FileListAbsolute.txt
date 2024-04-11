@@ -15,3 +15,4 @@
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/CleanArcMvc.Infra.Data.pdb
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/CleanArcMvc.Infra.Data.genruntimeconfig.cache
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/ref/CleanArcMvc.Infra.Data.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.Data/obj/Debug/net6.0/CleanArcMvc.Infra.Data.sourcelink.json

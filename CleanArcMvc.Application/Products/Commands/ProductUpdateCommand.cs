@@ -1,4 +1,4 @@
-﻿namespace CleanArcMvc.Application;
+﻿namespace CleanArcMvc.Application.Products.Commands;
 
 public class ProductUpdateCommand : ProductCommand
 {

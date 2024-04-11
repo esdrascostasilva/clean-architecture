@@ -1,7 +1,11 @@
 ﻿using AutoMapper;
+using CleanArcMvc.Application.DTOs;
+using CleanArcMvc.Application.Interfaces;
 using CleanArcMvc.Domain;
+using CleanArcMvc.Domain.Entities;
+using CleanArcMvc.Domain.Interfaces;
 
-namespace CleanArcMvc.Application;
+namespace CleanArcMvc.Application.Services;
 
 public class ProductService : IProductService
 {

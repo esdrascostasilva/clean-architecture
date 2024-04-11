@@ -103,3 +103,4 @@
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain.Tests/obj/Debug/net6.0/CleanArcMvc.Domain.Tests.pdb
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain.Tests/obj/Debug/net6.0/CleanArcMvc.Domain.Tests.genruntimeconfig.cache
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain.Tests/obj/Debug/net6.0/ref/CleanArcMvc.Domain.Tests.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain.Tests/obj/Debug/net6.0/CleanArcMvc.Domain.Tests.sourcelink.json

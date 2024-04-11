@@ -13,3 +13,4 @@
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/obj/Debug/net6.0/refint/CleanArcMvc.Application.dll
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/obj/Debug/net6.0/CleanArcMvc.Application.pdb
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/obj/Debug/net6.0/ref/CleanArcMvc.Application.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Application/obj/Debug/net6.0/CleanArcMvc.Application.sourcelink.json

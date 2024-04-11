@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using CleanArcMvc.Domain;
+using CleanArcMvc.Domain.Entities;
 
-namespace CleanArcMvc.Application;
+namespace CleanArcMvc.Application.DTOs;
 
 public class ProductDTO
 {

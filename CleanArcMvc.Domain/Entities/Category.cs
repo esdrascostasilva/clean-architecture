@@ -1,6 +1,6 @@
 ﻿using CleanArcMvc.Domain.Validation;
 
-namespace CleanArcMvc.Domain;
+namespace CleanArcMvc.Domain.Entities;
 
 public sealed class Category : Entity
 {

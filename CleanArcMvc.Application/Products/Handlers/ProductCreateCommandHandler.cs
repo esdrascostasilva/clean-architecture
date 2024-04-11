@@ -1,6 +1,30 @@
-﻿namespace CleanArcMvc.Application;
+﻿using CleanArcMvc.Application.Products.Commands;
+using CleanArcMvc.Domain;
+using CleanArcMvc.Domain.Entities;
+using CleanArcMvc.Domain.Interfaces;
+using MediatR;
 
-public class ProductCreateCommandHandler
+namespace CleanArcMvc.Application.Products.Handlers;
+
+public class ProductCreateCommandHandler : IRequestHandler<ProductCreateCommand, Product>
 {
+    private readonly IProductRepository _productRepository;
 
+    public ProductCreateCommandHandler(IProductRepository productRepository)
+    {
+        _productRepository = productRepository;
+    }
+
+    public async Task<Product> Handle(ProductCreateCommand request, CancellationToken cancellationToken)
+    {
+        var product = new Product(request.Name, request.Descrition, request.Price, request.Stock, request.Image);
+
+        if(product == null)
+            throw new ApplicationException("Error creating entity.");
+        else
+        {
+            product.CategoryId = request.CategoryId;
+            return await _productRepository.CreateProductAsync(product);
+        }
+    }
 }

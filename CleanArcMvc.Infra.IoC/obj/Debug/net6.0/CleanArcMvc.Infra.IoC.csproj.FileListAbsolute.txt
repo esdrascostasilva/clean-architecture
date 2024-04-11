@@ -19,3 +19,4 @@
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.IoC/obj/Debug/net6.0/CleanArcMvc.Infra.IoC.pdb
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.IoC/obj/Debug/net6.0/CleanArcMvc.Infra.IoC.genruntimeconfig.cache
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.IoC/obj/Debug/net6.0/ref/CleanArcMvc.Infra.IoC.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.IoC/obj/Debug/net6.0/CleanArcMvc.Infra.IoC.sourcelink.json

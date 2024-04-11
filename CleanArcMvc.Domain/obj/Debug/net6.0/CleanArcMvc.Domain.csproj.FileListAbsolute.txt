@@ -9,3 +9,4 @@
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/obj/Debug/net6.0/refint/CleanArcMvc.Domain.dll
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/obj/Debug/net6.0/CleanArcMvc.Domain.pdb
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/obj/Debug/net6.0/ref/CleanArcMvc.Domain.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Domain/obj/Debug/net6.0/CleanArcMvc.Domain.sourcelink.json

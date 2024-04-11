@@ -1,4 +1,6 @@
-﻿namespace CleanArcMvc.Domain;
+﻿using CleanArcMvc.Domain.Entities;
+
+namespace CleanArcMvc.Domain.Interfaces;
 
 public interface IProductRepository
 {
