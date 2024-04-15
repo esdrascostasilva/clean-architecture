@@ -1,15 +1,13 @@
-﻿using CleanArcMvc.Application;
-using CleanArcMvc.Application.Interfaces;
+﻿using CleanArcMvc.Application.Interfaces;
 using CleanArcMvc.Application.Mappings;
 using CleanArcMvc.Application.Services;
-using CleanArcMvc.Domain;
 using CleanArcMvc.Domain.Interfaces;
-using CleanArcMvc.Infra.Data;
 using CleanArcMvc.Infra.Data.Context;
 using CleanArcMvc.Infra.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MediatR;
 
 namespace CleanArcMvc.Infra.IoC;
 
@@ -26,6 +24,9 @@ public static class DependencyInjection
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
+
+            var myHandlers = AppDomain.CurrentDomain.Load("CleanArcMvc.Application");
+            services.AddMediatR(myHandlers);
 
             return services;
     }

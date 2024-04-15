@@ -3,7 +3,7 @@ using CleanArcMvc.Domain.Entities;
 using CleanArcMvc.Domain.Interfaces;
 using MediatR;
 
-namespace CleanArcMvc.Application;
+namespace CleanArcMvc.Application.Products.Handlers;
 
 public class ProductRemoveCommandHandler : IRequestHandler<ProductRemoveCommand, Product>
 {

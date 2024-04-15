@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "7sfYTt1wShtd7bPuW1uj0LjaTXM2FqLtFob0QMiUx8RDRmHPlujBPwt1su+aZ2ttGpr5IRlbnY2ODqNOjzHv1Q==",
-  "success": true,
+  "dgSpecHash": "DGErnXpDyd0Xh6J2T+/Utt6ud8X/vKL5os4JH8mNj1ytaX76osDtey+AlJ2evIQjftZiQHYi7RhJshB+y0zsQg==",
+  "success": false,
   "projectFilePath": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/CleanArcMvc.WebUI.csproj",
   "expectedPackageFiles": [
     "/Users/esdrascosta/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/esdrascosta/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/microsoft.data.sqlclient/2.1.7/microsoft.data.sqlclient.2.1.7.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -54,5 +55,15 @@
     "/Users/esdrascosta/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.19/microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.19/microsoft.netcore.app.host.osx-arm64.6.0.19.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1107",
+      "level": "Error",
+      "message": "Version conflict detected for MediatR. Install/reference MediatR 12.2.0 directly to project CleanArcMvc.WebUI to resolve this issue. \n CleanArcMvc.WebUI -> CleanArcMvc.Infra.IoC -> CleanArcMvc.Application -> MediatR (>= 12.2.0) \n CleanArcMvc.WebUI -> CleanArcMvc.Infra.IoC -> MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 -> MediatR (>= 11.0.0 && < 12.0.0).",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
