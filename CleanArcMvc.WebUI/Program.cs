@@ -1,4 +1,5 @@
 using CleanArcMvc.Infra.IoC;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;

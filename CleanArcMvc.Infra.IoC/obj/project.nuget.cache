@@ -1,14 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Pt54NFJCyfViSAYLuHkCb87HXH8fk69VgfDCKUjtO8TaBP2+tP4VA/TIAW7YUoXN16A4CGnczJjcEpKBEYlh+A==",
-  "success": false,
+  "dgSpecHash": "pKQ5dEzmgJxJ2dWuYQFBuIXcwV7irita/pm1kRS5QCrnETUC6RyYJFmt/2FB2Tu9ORqd4Xfv3xIO+IgFvyt/Nw==",
+  "success": true,
   "projectFilePath": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.Infra.IoC/CleanArcMvc.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "/Users/esdrascosta/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
-    "/Users/esdrascosta/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/microsoft.data.sqlclient/2.1.7/microsoft.data.sqlclient.2.1.7.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -54,15 +53,5 @@
     "/Users/esdrascosta/.nuget/packages/microsoft.netcore.app.ref/6.0.19/microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
     "/Users/esdrascosta/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.19/microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1107",
-      "level": "Error",
-      "message": "Version conflict detected for MediatR. Install/reference MediatR 12.2.0 directly to project CleanArcMvc.Infra.IoC to resolve this issue. \n CleanArcMvc.Infra.IoC -> CleanArcMvc.Application -> MediatR (>= 12.2.0) \n CleanArcMvc.Infra.IoC -> MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 -> MediatR (>= 11.0.0 && < 12.0.0).",
-      "libraryId": "MediatR",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

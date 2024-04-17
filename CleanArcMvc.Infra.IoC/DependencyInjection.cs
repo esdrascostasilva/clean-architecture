@@ -7,7 +7,7 @@ using CleanArcMvc.Infra.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using MediatR;
+
 
 namespace CleanArcMvc.Infra.IoC;
 
@@ -25,8 +25,7 @@ public static class DependencyInjection
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
-            var myHandlers = AppDomain.CurrentDomain.Load("CleanArcMvc.Application");
-            services.AddMediatR(myHandlers);
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
 
             return services;
     }
