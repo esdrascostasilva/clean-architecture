@@ -3,12 +3,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyApp.Namespace
 {
-    public class IndexModel : PageModel
+    public class EditModel : PageModel
     {
-        public IndexModel()
-        {
-        }
-
         public void OnGet()
         {
         }
