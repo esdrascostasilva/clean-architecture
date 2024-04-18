@@ -69,4 +69,35 @@ public class CategoriesController : Controller
         }
         return View(categoryDTO);
     }
+
+    [HttpGet]
+    public async Task<IActionResult> Delete(int? id)
+    {
+        if(id == null) return NotFound();
+        
+        var categoryDTO = await _categoryService.GetCategoryById(id);
+
+        if(categoryDTO == null) return NotFound();
+
+        return View(categoryDTO);
+    }
+
+    [HttpPost, ActionName("Delete")]
+    public async Task<IActionResult> DeleteConfirmed(int? id)
+    {
+        await _categoryService.Remove(id);
+        return RedirectToAction("Index");
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> Details(int? id)
+    {
+        if(id == null) return NotFound();
+        
+        var categoryDTO = await _categoryService.GetCategoryById(id);
+
+        if(categoryDTO == null) return NotFound();
+
+        return View(categoryDTO);
+    }
 }
