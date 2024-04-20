@@ -25,7 +25,7 @@ public class ProductUpdateCommandHandler : IRequestHandler<ProductUpdateCommand,
         
         else
         {
-            product.Update(request.Name, request.Descrition, request.Price, request.Stock, request.Image, request.CategoryId);
+            product.Update(request.Name, request.Description, request.Price, request.Stock, request.Image, request.CategoryId);
             return await _productRepository.UpdateProductAsync(product);
         }
     }
