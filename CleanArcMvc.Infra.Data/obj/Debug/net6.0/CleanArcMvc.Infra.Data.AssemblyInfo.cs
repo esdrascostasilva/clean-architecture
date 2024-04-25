@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanArcMvc.Infra.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b51582cf86d507ccf2a60456d17973aec51861b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f847659da8bca438fa3643221d91de22ca07217d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanArcMvc.Infra.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanArcMvc.Infra.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

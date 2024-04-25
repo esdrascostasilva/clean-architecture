@@ -1,11 +1,12 @@
-﻿using CleanArcMvc.Domain;
-using CleanArcMvc.Domain.Entities;
+﻿using CleanArcMvc.Domain.Entities;
+using CleanArcMvc.Infra.Data.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 
 namespace CleanArcMvc.Infra.Data.Context;
 
-public class ApplicationDbContext : DbContext
+public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
     { }
