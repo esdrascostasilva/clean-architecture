@@ -5,12 +5,64 @@
       "PackagePath": "staticwebassets/CleanArcMvc.WebUI.bundle.scp.css"
     },
     {
+      "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/images/borracha.png",
+      "PackagePath": "staticwebassets/images/borracha.png"
+    },
+    {
+      "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/images/caderno.png",
+      "PackagePath": "staticwebassets/images/caderno.png"
+    },
+    {
+      "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/images/calculadora.jpeg",
+      "PackagePath": "staticwebassets/images/calculadora.jpeg"
+    },
+    {
+      "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/images/canetaazul.png",
+      "PackagePath": "staticwebassets/images/canetaazul.png"
+    },
+    {
+      "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/images/canetapreta.png",
+      "PackagePath": "staticwebassets/images/canetapreta.png"
+    },
+    {
+      "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/images/canetavermelha.png",
+      "PackagePath": "staticwebassets/images/canetavermelha.png"
+    },
+    {
+      "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/images/catalog.png",
+      "PackagePath": "staticwebassets/images/catalog.png"
+    },
+    {
+      "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/images/estojo.jpeg",
+      "PackagePath": "staticwebassets/images/estojo.jpeg"
+    },
+    {
+      "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/images/lapis.png",
+      "PackagePath": "staticwebassets/images/lapis.png"
+    },
+    {
+      "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/images/mochila.png",
+      "PackagePath": "staticwebassets/images/mochila.png"
+    },
+    {
+      "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/images/noimage.jpeg",
+      "PackagePath": "staticwebassets/images/noimage.jpeg"
     },
     {
       "Id": "/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/wwwroot/js/site.js",

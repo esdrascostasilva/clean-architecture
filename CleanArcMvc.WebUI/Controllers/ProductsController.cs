@@ -11,11 +11,13 @@ public class ProductsController : Controller
 {
     private readonly IProductService _productService;
     private readonly ICategoryService _categoryService;
+    private readonly IWebHostEnvironment _environment;
 
-    public ProductsController(IProductService productService, ICategoryService categoryService) 
+    public ProductsController(IProductService productService, ICategoryService categoryService, IWebHostEnvironment environment) 
     {
         _productService = productService;
         _categoryService = categoryService;
+        _environment = environment;
     }
 
      [HttpGet]
@@ -65,6 +67,46 @@ public class ProductsController : Controller
             await _productService.Update(productDTO);
             return RedirectToAction(nameof(Index));
         }
+        return View(productDTO);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> Delete(int? id)
+    {
+        if (id == null) 
+            return NotFound();
+        
+        var productDTO = await _productService.GetProductById(id);
+
+        if(productDTO == null)
+            return NotFound();
+        
+        return View(productDTO);
+    }
+
+    [HttpPost, ActionName("Delete")]
+    public async Task<IActionResult> DeleteConfirmed(int id)
+    {
+        await _productService.Remove(id);
+        return RedirectToAction("Index");
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> Details(int id)
+    {
+        if(id == null)
+            return NotFound();
+        
+        var productDTO = await _productService.GetProductById(id);
+
+        if(productDTO == null)
+            return NotFound();
+        
+        var wwwroot = _environment.WebRootPath;
+        var image = Path.Combine(wwwroot, "images//"+ productDTO.Image);
+        var exists = System.IO.File.Exists(image);
+        ViewBag.ImageExist = exists;
+        
         return View(productDTO);
     }
 }

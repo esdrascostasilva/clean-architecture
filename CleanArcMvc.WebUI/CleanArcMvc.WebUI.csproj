@@ -4,6 +4,10 @@
     <ProjectReference Include="..\CleanArcMvc.Infra.IoC\CleanArcMvc.Infra.IoC.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot/images/" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
