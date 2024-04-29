@@ -1,6 +1,7 @@
 ﻿using CleanArcMvc.Application.DTOs;
 using CleanArcMvc.Application.Interfaces;
 using CleanArcMvc.Infra.Data.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -70,6 +71,7 @@ public class ProductsController : Controller
         return View(productDTO);
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpGet]
     public async Task<IActionResult> Delete(int? id)
     {

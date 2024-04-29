@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanArcMvc.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9112189a381b785c14b71fdde6f6b8ccfecb9c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10248964dbaabf36856a3141aad2be2d2bd8a66f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanArcMvc.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanArcMvc.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
