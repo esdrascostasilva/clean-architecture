@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanArcMvc.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d53a0c72470fb9a95135c02ecdc2ac2a202e6ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanArcMvc.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanArcMvc.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

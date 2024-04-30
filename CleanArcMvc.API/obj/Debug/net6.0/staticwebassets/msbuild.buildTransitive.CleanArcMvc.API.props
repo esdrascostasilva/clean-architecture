@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/CleanArcMvc.API.props" />
+</Project>
