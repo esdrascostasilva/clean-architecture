@@ -24,7 +24,7 @@ public static class DependencyInjectionJWT
                 ValidateIssuerSigningKey = true,
 
                 ValidIssuer = configuration["Jwt:Issuer"],
-                ValidAudience = configuration["Jwt:Auduence"],
+                ValidAudience = configuration["Jwt:Audience"],
                 IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:SecretKey"])),
                 ClockSkew = TimeSpan.Zero
             };

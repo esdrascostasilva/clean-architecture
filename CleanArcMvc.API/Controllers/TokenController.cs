@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Text;
 using CleanArcMvc.API.DTO;
 using CleanArcMvc.Domain.Account;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 
@@ -23,12 +24,17 @@ public class TokenController : ControllerBase
 
     [HttpPost("CreateUser")]
     [ApiExplorerSettings(IgnoreApi = true)]
+    [Authorize]
     public async Task<ActionResult> CreateUser([FromBody] LoginDto loginDto)
     {
         var result = await _authenticate.RegisterUser(loginDto.Email, loginDto.Password);
 
         if(result)
-            return Ok($"User {loginDto.Email} was created successfuly.");
+        {
+            var tokenGen = GenerateToken(loginDto).ToString;
+            return Ok($"User {loginDto.Email} was created successfully. Token {tokenGen}");
+        }
+            
         else
         {
             ModelState.AddModelError(string.Empty, "Invalid Login attempt.");
