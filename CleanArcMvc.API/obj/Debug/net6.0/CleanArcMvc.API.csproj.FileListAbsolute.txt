@@ -84,3 +84,5 @@
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.API/obj/Debug/net6.0/CleanArcMvc.API.pdb
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.API/obj/Debug/net6.0/CleanArcMvc.API.genruntimeconfig.cache
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.API/obj/Debug/net6.0/ref/CleanArcMvc.API.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.API/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.API/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
