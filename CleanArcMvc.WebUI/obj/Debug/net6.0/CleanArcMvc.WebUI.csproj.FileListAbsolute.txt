@@ -86,3 +86,8 @@
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/esdrascosta/Projects/CleanArchMvc/CleanArcMvc.WebUI/obj/Debug/net6.0/CleanArcMvc.WebUI.MvcApplicationPartsAssemblyInfo.cs
